@@ -1,2 +1,5 @@
 <%= gravatar_for @user %>
-<%= @user.name %>, <%= @user.email %>
+Username: <%= @user.name %>, Email: <%= @user.email %>,
+Created at: <%= @user.created_at %>, Updated at: <%= @user.updated_at %>,
+Current time : <%= Time.now %>
+
